@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">JavaTuT</string>
+    <string-array name="tuts">
+        <item>Introduction and installation</item>
+        <item>Hello world program</item>
+        <item>Using variables"</item>
+        <item>Working with text</item>
+        <item>While loops</item>
+        <item>Fore loops</item>
+        <item>If statement</item>
+        <item>Getting user input</item>
+        <item>DO,,,While</item>
+        <item>Switch statement</item>
+        <item>Introduction to arrays</item>
+        <item>Arrays od Strings</item>
+        <item>Multi-Dimensional arrays</item>
+        <item>Classes and objects</item>
+        <item>Methods</item>
+        <item>Getters and return values</item>
+        <item>Setters and "this"</item>
+        <item>Constructors</item>
+        <item>Static and Final keywords</item>
+        <item>String builder and String formatting</item>
+        <item>The <b><i>toString</i></b> method</item>
+        <item>Inheritance</item>
+        <item>Packages</item>
+        <item>Interfaces</item>
+        <item>public, private, protected</item>
+        <item>polymorphism</item>
+        <item>Encapsulation</item>
+        <item>Casting numerical values</item>
+        <item>Upcasting and Downcasting</item>
+        <item>Using Generics</item>
+        <item>Anonymous Classes</item>
+        <item>Reading Files with scanner</item>
+        <item>Handling Exceptions</item>
+        <item>Multiple Exceptions</item>
+        <item>Runtime vs. Checked Exceptions</item>
+        <item>Abstract Classes</item>
+        <item>Reading Files with File Reader</item>
+        <item>Try with Resources</item>
+        <item>Creating and Writing texts files</item>
+        <item>The <b><i>Equals</i></b> Method</item>
+        <item>Inner classes</item>
+        <item>Enums</item>
+        <item>Recursions</item>
+        <item>Serialization</item>
+        <item>The <b><i>Transient</i></b> keyword</item>
+        <item>Passing by Value</item>
+        <item>Array Lists</item>
+        <item>Linked Lists</item>
+        <item>HashMap</item>
+        <item>Sorted Maps</item>
+        <item>Sets</item>
+        <item>Custom objects in Sets</item>
+        <item>Sorting Lists</item>
+        <item>Natural ordering</item>
+        <item>Queues</item>
+        <item>Iterators</item>
+        <item>Implementing Iterable</item>
+        <item>Deciding which Collection to use</item>
+        <item>Complex Data Structure</item>
+        <item>Lambda Expressions</item>
+        
+    </string-array>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="about_statement">This app aims to provide a clear introduction to <b><i>Java</i></b>.
+        through short descriptions and code snippets. at the end of
+    every tutorial you will find a link to a video discussion <b><i>(in Arabic)</i></b>.
+    feel free to leave any feedback and happy coding.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="watch_arabic_video_tutorial">Watch Arabic video tutorial</string>
+    <string name="intro_1">Java is a general purpose, high-level programming language
+    with support for object-oriented programming. java has a collection of wide-ranging application
+    programming interfaces(APIs). java is a self-contained runtime system.\nIf you
+     didn\'t get all of this. don\'t worry we will discus everything in detail.</string>
+    <string name="intro_2"><b><i>Versions:</i></b> java has three main versions.\n
+    <b><i>J2ME</i></b> micro edition. used with micro controllers and embedded devices.\n
+    <b><i>J2SE</i></b> standard edition. used with disk-tops (That\'s what we will be dealing with).\n
+    <b><i>J2EE</i></b> Enterprise edition. used with servers.</string>
+    <string name="intro_3">Examples of applications written in java.\n
+    <b><i>Think Free</i></b> (Microsoft office replacement).\n
+    <b><i>NASA world wind</i></b> (Google maps replacement).\n
+    <b><i>Ultra Mixer</i></b> (DJ mixing software).\n<b><i>Jnode</i></b>
+    (A complete operating system written in java).</string>
+    <string name="intro_4"><b><i>The Development cycle</i></b> of any software is as flows:\n
+    <b><i>Design the App</i></b> you need to draw your wireframes (the app structure).\n
+    <b><i>Write source code</i></b> start writing code for every wireframe.\n
+    <b><i>Testing</i></b> trying different situations to make sure your code works. or
+     use unit testing (which is highly recommended).<b><i>Fix Bugs</i></b> when
+    the code behaves unusually we call it a bug. which need to be fixed.</string>
+    <string name="intro_5">To start writing java you must have some tools. which are:\n
+    <b><i>JRE</i></b> java runtime environment. which needs to be installed to run
+    any java application (Google it and download from oracle website).\n
+    <b><i>JDK</i></b> java development kite. which includes the compiler <b><i>Javac</i></b>.
+    the archiving tool <b><i>Jar</i></b>. the debugging tool <b><i>Jdb</i></b>.\n
+    (google it and download from oracle website).</string>
+    <string name="intro_6">to setup the Jdk after installation. if you are using windows
+    the jdk will be installed in (c:\\program files\\java\\jdl1.8.0_xx). open the bin
+    folder and copy it\'s path (for the jdk to work probably we need to add it\'s path to
+        the Path environment variable). Right click on my computer and choose properties then
+    advanced system settings. click advanced tab then Environment variables and click on
+    new (if path doesn\'t exist in the list). if it exists in the list select it and
+    click edit</string>
+    <string name="intro_7">Add the copied path to the variable value and click OK.
+    to verify that it\'s working open cmd and type javac. you should end up with
+    something like this</string>
+    <string name="intro_8">If you are using linux or Mac the preferred location for
+    JAVA_HOME is etc\\environment. open it using any text editor and add this line.
+    (JAVA_HOME="/usr/lib/jvm/open-jdk"). or whatever the path you downloaded it in.
+    to test your jdk open a terminal and type javac</string>
+    <string name="intro_9">Final step. we need to install an IDE (Integrated development environment).
+    to start writing code. there is a lot of options, here are top 4.\n
+    <b><i>NetBeans</i></b> the most stable ide which is developed by oracle.\n
+    <b><i>Eclipse</i></b> the widely used one with a lot of options and plugins.\n
+    <b><i>Intellij idea</i></b> most people like it\'s profession but if you need
+    extra plugins or you are going to work with servers then you need to get the
+    paid version.\n<b><i>BLueJ</i></b> simple, lightweight, used widely by students.\n
+    in the end it doesn\'t really differ a lot, just grab the one you like. </string>
+
+</resources>
